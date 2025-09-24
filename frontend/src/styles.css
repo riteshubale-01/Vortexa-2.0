@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+.post {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  max-width: 600px;
+  animation: fadeIn 0.7s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px);}
+  to { opacity: 1; transform: none;}
+}
+.sentiment-badge {
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.2em 0.7em;
+  margin-left: 1em;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.post-form {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  animation: fadeIn 0.7s;
+}
+.error {
+  color: red;
+  margin-bottom: 0.5em;
+}
+.username {
+  font-weight: bold;
+}
+.timestamp {
+  color: #888;
+  font-size: 0.9em;
+  margin-left: 1em;
+}
+.explanation {
+  font-size: 0.95em;
+  color: #555;
+  margin-top: 0.5em;
+}
