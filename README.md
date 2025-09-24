@@ -1,2 +1,1 @@
-# Vortexa-2.0
-First Hackathon
+# Here are your Instructions
